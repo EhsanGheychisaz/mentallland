@@ -1,0 +1,64 @@
+.slider1 .swiper{
+    overflow: visible;
+}
+.slider1 .swiper-button-prev,
+.slider1 .swiper-button-next{
+    position: absolute;
+    background-color: #02979D;
+    color: white;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    top:-25%;
+    right: 0px;
+}
+.slider1 .swiper-button-prev::after,
+.slider1 .swiper-button-next::after{
+    font-size: 15px;
+    color: white;
+}
+.slider1 .swiper-button-prev, .swiper-rtl .swiper-button-next,.swiper-button-prev::after{
+    left: 90%!important;
+}
+@media only screen and (max-width: 1200px) {
+    .slider1 .swiper-button-prev,
+    .slider1 .swiper-button-next{
+    top:-30%;
+    right: 0px;
+}
+.slider1 .swiper-button-prev::after,
+.slider1 .swiper-button-next::after{
+    font-size: 10px;
+}
+.slider1 .swiper-button-prev,.slider1 .swiper-rtl .swiper-button-next{
+    left: 80%!important;
+}
+  }
+  @media only screen and (max-width: 850px) {
+    .slider1 .swiper-button-prev,
+    .slider1 .swiper-button-next{
+    width: 37px;
+    height: 37px;
+    top:-50px;
+    right: 0px;
+}
+.slider1 .swiper-button-prev{
+    left: 80%!important;
+}
+}
+@media only screen and (max-width: 500px) {
+    .slider1 .swiper-button-prev,
+    .slider1 .swiper-button-next{
+    width: 25px;
+    height: 25px;
+    top:-60px;
+    left: 90%;
+}
+.slider1 .swiper-button-prev::after,
+.slider1 .swiper-button-next::after{
+    font-size: 10px;
+}
+.slider1 .swiper-button-prev{
+    left: 80%!important;
+}
+  }

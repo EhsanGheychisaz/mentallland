@@ -1,0 +1,94 @@
+.slider4 .swiper{
+    overflow: visible;
+}
+.slider4 .swiper-button-prev,
+.slider4 .swiper-button-next{
+    background-color: #02979D;
+    color: white;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    top:-36%;
+    right: 0px;
+}
+.slider4 .swiper-button-prev::after,
+.slider4 .swiper-button-next::after{
+    font-size: 15px;
+    color: white;
+}
+.slider4 .swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left: 90%!important;
+}
+@media only screen and (max-width: 2400px) {
+    .slider4 .swiper-button-prev,
+    .slider4 .swiper-button-next{
+    top:-35%;
+    right: 0px;
+  }
+  }
+@media only screen and (max-width: 1800px) {
+  .slider4 .swiper-button-prev,
+  .slider4 .swiper-button-next{
+  top:-33%;
+  right: 0px;
+}
+}
+@media only screen and (max-width: 1200px) {
+    .slider4 .swiper-button-prev,
+    .slider4 .swiper-button-next{
+    top:-25%;
+    right: 0px;
+}
+.slider4 .swiper-button-prev::after,
+.slider4 .swiper-button-next::after{
+    font-size: 10px;
+}
+.slider4 .swiper-button-prev,.slider4 .swiper-rtl .swiper-button-next{
+    left: 83%!important;
+}
+  }
+  @media only screen and (max-width: 850px) {
+    .slider4 .swiper-button-prev,
+    .slider4 .swiper-button-next{
+    width: 37px;
+    height: 37px;
+    top:-25%;
+    right: 0px;
+}
+.slider4 .swiper-button-prev,.slider4 .swiper-rtl .swiper-button-next{
+    left: 85%!important;
+}
+}
+@media only screen and (max-width: 500px) {
+    .slider4 .swiper-button-prev,
+    .slider4 .swiper-button-next{
+    width: 37px;
+    height: 37px;
+    top:-25%;
+    right: 0px;
+}
+.slider4 .swiper-button-prev::after,
+.slider4 .swiper-button-next::after{
+    font-size: 10px;
+}
+.slider4 .swiper-button-prev,.slider4 .swiper-rtl .swiper-button-next{
+    left: 80%!important;
+}
+  }
+ 
+  @media only screen and (max-width: 404px) {
+    .slider4 .swiper-button-prev,
+    .slider4 .swiper-button-next{
+    width: 37px;
+    height: 37px;
+    top:-30%;
+    right: 0px;
+}
+.slider4 .swiper-button-prev::after,
+.slider4 .swiper-button-next::after{
+    font-size: 10px;
+}
+.slider4 .swiper-button-prev,.slider4 .swiper-rtl .swiper-button-next{
+    left: 75%!important;
+}
+  }

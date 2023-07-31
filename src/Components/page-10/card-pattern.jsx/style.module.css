@@ -1,0 +1,13 @@
+.btn{
+    width: 10%;
+}
+@media only screen and (max-width:900px){
+    .btn{
+        width: 35%;
+    }
+}
+@media only screen and (max-width:600px){
+    .btn{
+        width: 50%;
+    }
+}

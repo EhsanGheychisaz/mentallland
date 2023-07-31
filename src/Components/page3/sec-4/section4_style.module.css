@@ -1,0 +1,47 @@
+.ZPattern_context p{
+    width: 567px;
+height: 476px;
+font-family: 'Gilroy-Regular';
+font-size: 20px;
+line-height: 40px;
+color: #000B0C;
+}
+.ZPattern{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+}
+@media only screen and (min-width:1500px) {
+    .ZPattern{
+        justify-content: center;
+    }
+    
+}
+@media only screen and (max-width:1000px) {
+    .css-1vnbi0q{
+        padding: 0;
+    }
+    .ZPattern_img{
+    }
+    .ZPattern_context{
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+    }
+    .ZPattern_context h3{
+        margin-top: 8%;
+        margin-bottom: 8%;
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+    }
+    .ZPattern_context p{
+        width: 90%;
+        margin-bottom: 8%;
+        text-align: center;
+        height: fit-content;
+        font-size: 12px;
+    }
+}

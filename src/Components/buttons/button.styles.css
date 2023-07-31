@@ -1,0 +1,57 @@
+.button-container {
+    width: 172px;
+    height: 47px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgba(2, 151, 157, 1);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+    color: #fafafa;
+    font-family: "Gilroy-bold";
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    margin-top: 20px;
+  }
+  
+  .button-container:hover {
+    transform: scale(1.1);
+    
+  }
+  .button-container:focus{
+    outline: none;
+    border: none;
+  }
+  .poster-button{
+    box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 5px;
+width: 220px;
+height: 60px;
+background: none;
+border: 1px solid #FAFEFE;
+border-radius: 35px;
+  }
+.contact-us-btn{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 5px;
+width: 184px;
+height: 56px;
+background: #02979D;
+border-radius: 10px;
+}

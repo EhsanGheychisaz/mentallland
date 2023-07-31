@@ -1,0 +1,81 @@
+.page11 .swiper{
+    overflow: visible;
+}
+.page11 .swiper-button-prev,
+.page11 .swiper-button-next{
+    background-color: #02979D;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top:-10%;
+    right: 0px;
+}
+.page11 .swiper-button-prev::after,
+.page11 .swiper-button-next::after{
+    font-size: 15px;
+    color: white;
+}
+.page11 .swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left: 87%!important;
+}
+
+@media only screen and (max-width: 1200px) {
+    .page11 .swiper-button-prev,
+    .page11 .swiper-button-next{
+    top:-24%;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+}
+.page11 .swiper-button-prev::after,
+.page11 .swiper-button-next::after{
+    font-size: 10px;
+}
+.page11 .swiper-button-prev,.page11 .swiper-rtl .swiper-button-next{
+    left: 84%!important;
+}
+.page11 .swiper{
+    margin-top: 100px;
+}
+  }
+  @media only screen and (max-width: 900px) {
+    .page11 .swiper-button-prev,
+    .page11 .swiper-button-next{
+    width: 37px;
+    height: 37px;
+    top:-19%;
+    right: 0px;
+}
+.page11 .swiper-button-prev,.page11 .swiper-rtl .swiper-button-next{
+    left: 75%!important;
+}
+
+}
+@media only screen and (max-width: 600px) {
+    .page11 .swiper-button-prev,
+    .page11 .swiper-button-next{
+    width: 30px;
+    height: 30px;
+    top:-19%;
+    right: 0px;
+    display: flex;
+    align-items: center!important;
+    justify-content: center!important;
+    padding: 0px;
+    line-height: 0px!important;
+}
+.page11 .swiper-button-prev::after,
+.page11 .swiper-button-next::after{
+    font-size: 10px;
+    
+}
+.page11 .swiper-button-prev,.page11 .swiper-rtl .swiper-button-next{
+    left: 70%!important;
+}
+.page11 .swiper{
+    padding-bottom: 0px;
+}
+
+  }
+ 

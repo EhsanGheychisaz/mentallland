@@ -1,0 +1,55 @@
+
+.box {
+    font-style: normal;
+    padding-left: 150px;
+    max-width: 1800px;
+    margin: 0 auto;
+
+}
+
+.img{
+    width: 90%;
+}
+.sectionsContainer p{
+    font-size: 20px;
+    color: #000B0C;
+    line-height: 38px;
+    font-family: "Gilroy-Regular";
+    text-align: left;
+}
+.title{
+    text-align: left;
+}
+.sectionsContainer{
+    padding: 0px 70px;
+    margin-top: 200px;
+}
+@media only screen and (max-width: 1200px) {
+    .sectionsContainer p , .sectionsContainer h2{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .img{
+        width: 100%;
+    }
+
+    .box {
+        margin-top:0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        max-width: 10%;
+    }
+    .box p{
+        margin-left: 0px;
+
+    }
+    .sectionsContainer{
+        padding: 0px 5px;
+        margin-top: 90px;
+    }
+    .sectionsContainer p ,.sectionsContainer h2{
+        text-align: center;
+        line-height: 30px;
+    }
+}

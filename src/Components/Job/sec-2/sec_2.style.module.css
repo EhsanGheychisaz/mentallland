@@ -1,0 +1,11 @@
+.ol_list{
+    list-style-type:decimal;
+    font-family: 'Gilroy-Regular';
+font-size: 19px;
+line-height: 40px;
+}
+
+.ol{
+    width: 590px;
+    padding: 5%;
+}

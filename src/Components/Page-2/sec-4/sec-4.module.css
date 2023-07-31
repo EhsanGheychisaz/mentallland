@@ -1,0 +1,74 @@
+.container{
+    background-image: url('../../../assests/image/background-sec4.png');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position: bottom;
+    background-size: cover;
+
+}
+.box {
+    font-family: 'alice-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(237, 161, 47, 1);
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 1800px;
+    margin: 0 auto;
+    margin-top: 212px;
+
+}
+
+.card {
+    text-align: center;
+}
+.box .orange{
+    color: rgba(237, 161, 47, 1);
+}
+.box .black{
+    color: rgba(0, 11, 12, 1);
+    margin-bottom: 20px;
+}
+.box h3 {
+    font-family: "alice-regular";
+    font-size: 30px;
+    text-align: center;
+}
+
+.box p {
+    font-family: "alice-regular";
+    font-size: 19px;
+    color: #040C1A;
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .lastch {
+        display: none;
+    }
+
+    .box {
+        margin-top: 150px;
+        padding-left: 0px;
+        padding-right: 0px;
+        max-width: 1900px;
+    }
+
+    .box p {
+        font-size: 17px;
+        margin-right: 15px;
+    }
+    .box h3 {
+        font-size: 24px;
+
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .container{
+        background-position: 0%;
+        background-size: auto;
+
+    }
+}

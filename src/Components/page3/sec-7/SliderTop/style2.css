@@ -1,0 +1,101 @@
+.slider5 .swiper{
+    overflow: visible;
+}
+.slider5 .swiper-button-prev,
+.slider5 .swiper-button-next{
+    background-color: #02979D;
+    color: white;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    position: absolute;
+    right: 45%!important;
+    transform: translateX(-50% );
+    top: 130%!important;
+}
+.slider5 .swiper-button-prev::after,
+.slider5 .swiper-button-next::after{
+    font-size: 15px;
+    color: white;
+}
+.slider5 .swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left: 45%!important;
+}
+@media only screen and (min-width:900px){
+    .slider5 .swiper-slide-next{
+        transform: scale(1.4) translateX(13px);
+    }
+}
+@media only screen and (max-width: 2400px) {
+    .slider5 .swiper-button-prev,
+    .slider5 .swiper-button-next{
+    right: 50%;
+  }
+  }
+@media only screen and (max-width: 1800px) {
+  .slider5 .swiper-button-prev,
+  .slider5 .swiper-button-next{
+  right: 50%;
+}
+}
+@media only screen and (max-width: 1200px) {
+    .slider5 .swiper-button-prev,
+    .slider5 .swiper-button-next{
+    right: 50%;
+}
+.slider5 .swiper-button-prev::after,
+.slider5 .swiper-button-next::after{
+    font-size: 10px;
+}
+.slider5 .swiper-button-prev,.slider5 .swiper-rtl .swiper-button-next{
+    right: 50%;
+}
+  }
+  @media only screen and (max-width: 900px) {
+    .slider5 .swiper-button-prev,
+    .slider5 .swiper-button-next{
+    width: 37px;
+    height: 37px;
+    top:110%!important;
+    right: 40%!important;
+}
+.slider5 .swiper-button-prev,.slider5 .swiper-rtl .swiper-button-next{
+    left: 40%!important;
+}
+.slider5 .swiper-slide-next{
+    transform: scale(1) translateX(0px);
+}
+}
+@media only screen and (max-width: 500px) {
+    .slider5 .swiper-button-prev,
+    .slider5 .swiper-button-next{
+    width: 37px;
+    height: 37px;
+    right: 40%!important;
+    top:110%!important;
+}
+.slider5 .swiper-button-prev::after,
+.slider5 .swiper-button-next::after{
+    font-size: 10px;
+}
+.slider5 .swiper-button-prev,.slider5 .swiper-rtl .swiper-button-next{
+    left: 40%!important;
+}
+  }
+ 
+  @media only screen and (max-width: 404px) {
+    .slider5 .swiper-button-prev,
+    .slider5 .swiper-button-next{
+    width: 37px;
+    height: 37px;
+    right: 36%!important;
+    
+}
+.slider5 .swiper-button-prev::after,
+.slider5 .swiper-button-next::after{
+    font-size: 10px;
+}
+.slider5 .swiper-button-prev,.slider5 .swiper-rtl .swiper-button-next{
+    left: 35%!important;
+}
+  }

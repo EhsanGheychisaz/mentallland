@@ -1,0 +1,24 @@
+.imgBG{
+    width: 20%;
+    height: auto;
+    position: relative;
+}
+.overlay , .overlay2{
+    position: absolute;
+    box-sizing: border-box;
+    width:100%;
+    height: 100%;
+    background-color: rgba(4, 50, 104,0.7);
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+}
+.overlay2{
+    background-color: rgba(2, 151, 157,0.7);
+}
+.img{
+    width: 100%;
+    height: 100%;
+}

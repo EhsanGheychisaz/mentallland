@@ -1,0 +1,102 @@
+.section2_text{
+    width: 90%;
+height: 195px;
+
+font-family: 'Gilroy-Regular';
+font-size: 24px;
+line-height: 40px;
+
+text-align: center;
+
+margin-bottom: 50px;
+color: #000B0C;
+}
+.section2_title{
+    width: 251px;
+height: 46px;
+
+font-family: 'alice-regular';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 46px;
+margin-bottom: 30px;
+text-align: center;
+text-transform: uppercase;
+
+
+color: #000B0C;
+}
+.section2_pic{
+    width: 333px;
+    height: 190px;
+    position: relative;
+}
+.section2_pic img{
+    position: absolute;
+    right: 0;
+    width: 184.6px;
+height: 184.6px;
+}
+.section2_pic p{
+    position: absolute;
+    bottom: -60px;
+    left: 26%;
+    width: 291px;
+height: 53px;
+font-family:  'alice-regular';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+
+text-align: center;
+text-transform: uppercase;
+
+color: #000B0C;
+}
+
+.section2_pic__shadow,
+.section2_pic__shadow_special{
+    position: absolute;
+    left: -79px;
+    width: 332.48px;
+height: 184.6px;
+   background: url("../../../assests/image/Rectangle\ 49.png");
+}
+@media only screen and (max-width:1200px) {
+    .section2_title{
+        font-size: 20px;
+    }
+    .section2_text{
+        font-size: 15px;
+        height: fit-content;
+    }
+    .section2_pic__shadow_special,
+    .section2_pic__shadow{
+        display: none !important;
+    }
+    .section2_pic{
+        width: 100%;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section2_pic img{
+        transform: scale(0.8);
+        position: relative;
+    }
+    .section2_pic p{
+        width: 147px !important;
+        text-align: center;
+        bottom: none;
+        position: relative;
+        top: 0%;
+        margin-bottom: 6%;
+        left: 15px;
+        font-size: 12px;
+        width: 130px;
+    }
+}

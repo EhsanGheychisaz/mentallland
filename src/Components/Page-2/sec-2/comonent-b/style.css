@@ -1,0 +1,22 @@
+.img{
+    position: absolute;
+    top: -60px;
+    right: 0px;
+    z-index: -1;
+    width: 50%;
+}
+.Phone{
+    border:1px solid #02979D!important;
+    border-radius:17px;
+    width:100%;
+    outline:none!important;
+    padding:5px 10px;
+    height:53px;
+    margin:0px auto;
+}
+.phoneerrors{
+    color:red;
+}
+.inputerror{
+    border:1px solid red!important;
+}

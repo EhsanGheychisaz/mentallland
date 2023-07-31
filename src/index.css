@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  margin: 0;
+  font-family: "Gilroy-Light";
+  font-style: normal;
+  margin: 0 auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a { 
+  text-decoration: none;
+  color: black;
+}
+li{
+  text-decoration: none;
+  list-style-type: none;
+}

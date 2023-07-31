@@ -1,0 +1,62 @@
+.ZPattern_context{
+    padding-top: 10%;
+    padding-right: 6%;
+}
+.ZPattern_context h3{
+    width: 538px;
+    height: 42px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight:400;
+    font-size: 34px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000B0C;
+}
+.ZPattern_context p{
+    width: 715px;
+font-family: 'Gilroy-Regular';
+font-size: 21px;
+line-height: 40px;
+color: #000B0C;
+margin-top: 4%;
+}
+.ZPattern{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+@media only screen and (min-width:1500px) {
+    .ZPattern{
+        justify-content: center;
+    }
+    
+}
+@media only screen and (max-width:1000px) {
+    .ZPattern_context{
+        padding-top: 0%;
+        padding-right: 0%;
+    }
+    .ZPattern_img{
+
+        }
+    .ZPattern_context{
+            display:flex;
+            justify-content:center;
+            flex-direction:column;
+            align-items:center;
+    }
+    .ZPattern_context h3{
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .ZPattern_context p{
+        width: 90%;
+        margin-top: 0;
+        text-align: center;
+        font-size: 12px;
+    }
+}

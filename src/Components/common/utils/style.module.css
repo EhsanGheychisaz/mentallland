@@ -1,0 +1,39 @@
+.ul{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    width: 315px;
+    color:#02979D;
+    z-index: 999;
+}
+.li{
+    background: white;
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.li:hover{
+    background: rgba(255, 255, 255, 0.57);
+}
+@media only screen and (max-width: 1350px) {
+   .ul{
+    transform: translateY(-85px);
+    width: 280px;
+   }
+
+    
+}
+@media only screen and (max-width: 850px) {
+    .ul{
+        width: 250px;
+        margin: 0px auto;
+    }
+    .li{
+        width: 40px;
+        height: 40px;
+    }
+    
+}

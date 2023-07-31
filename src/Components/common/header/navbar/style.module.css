@@ -1,0 +1,35 @@
+.select{
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+    font-family: "Gilroy-Regular";
+}
+.option{
+    background:none;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+.ul{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    width: 300px;
+    color:white;
+}
+.li{
+    background:#02979D;
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.li:hover{
+    background:#02989dd3;
+}
+
+

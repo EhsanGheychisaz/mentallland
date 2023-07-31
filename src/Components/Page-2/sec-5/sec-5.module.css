@@ -1,0 +1,20 @@
+.sectionsContainer {
+    max-width: 1160px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+    }
+    .sectionsContainer1 {
+        margin-bottom: -70px;
+    }
+    @media only screen and (max-width: 1200px) {
+        .sectionsContainer {
+            gap: 80px;
+            }
+        .sectionsContainer1 {
+            margin-bottom: 0px;
+        }
+    }

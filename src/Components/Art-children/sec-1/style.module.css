@@ -1,0 +1,31 @@
+.container{
+    position: relative;
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+.subbg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+@media only screen and (max-width: 1200px) {
+    .sectionsContainer p , .sectionsContainer h2{
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .sectionsContainer p , .sectionsContainer h2{
+        text-align: center;
+    }
+    .img{
+        height: 400px;
+        object-fit: cover;
+    }
+    .subbg{
+        height: 300px;
+        object-fit: cover;
+    }
+}

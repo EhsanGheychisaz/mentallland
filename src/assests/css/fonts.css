@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "alice-regular";   /*Can be any text*/
+    src: local("Alice-Regular"),
+      url("../fonts/Alice/Alice-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Gilroy-Regular";   /*Can be any text*/
+    src: local("Gilroy-Regular"),
+      url("../fonts/Gilroy/Gilroy-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Gilroy-Black";   /*Can be any text*/
+    src: local("Gilroy-Black"),
+      url("../fonts/Gilroy/Gilroy-Black.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Gilroy-Blackitalic";   /*Can be any text*/
+    src: local("Gilroy-Blackitalic"),
+      url("../fonts/Gilroy/Gilroy-BlackItalic.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Gilroy-Bold";   /*Can be any text*/
+    src: local("Gilroy-Bold"),
+      url("../fonts/Gilroy/Gilroy-Bold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Gilroy-BoldItalic";   /*Can be any text*/
+    src: local("Gilroy-BoldItalic"),
+      url("../fonts/Gilroy/Gilroy-BoldItalic.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Gilroy-ExtraBold";   /*Can be any text*/
+    src: local("Gilroy-ExtraBold"),
+      url("../fonts/Gilroy/Gilroy-ExtraBold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Gilroy-SemiBold";   /*Can be any text*/
+    src: local("Gilroy-SemiBold"),
+      url("../fonts/Gilroy/Gilroy-SemiBold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Gilroy-ExtraBoldItalic";   /*Can be any text*/
+    src: local("Gilroy-ExtraBoldItalic"),
+      url("../fonts/Gilroy/Gilroy-ExtraBoldItalic.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Gilroy-Gilroy-Heavy";   /*Can be any text*/
+    src: local("Gilroy-Gilroy-Heavy"),
+      url("../fonts/Gilroy/Gilroy-Heavy.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Gilroy-HeavyItalic";   /*Can be any text*/
+    src: local("Gilroy-HeavyItalic"),
+      url("../fonts/Gilroy/Gilroy-HeavyItalic.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Gilroy-Light";   /*Can be any text*/
+    src: local("Gilroy-Light"),
+      url("../fonts/Gilroy/Gilroy-Light.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Gilroy-Medium";   /*Can be any text*/
+    src: local("Gilroy-Medium"),
+      url("../fonts/Gilroy/Gilroy-Medium.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Gilroy-Thin";   /*Can be any text*/
+    src: local("Gilroy-Thin"),
+      url("../fonts/Gilroy/Gilroy-Thin.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Gilroy-UltraLight";   /*Can be any text*/
+    src: local("Gilroy-UltraLight"),
+      url("../fonts/Gilroy/Gilroy-UltraLight.ttf") format("truetype");
+  }
+
+
+
+
+
+ 

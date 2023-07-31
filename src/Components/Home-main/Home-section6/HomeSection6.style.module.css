@@ -1,0 +1,152 @@
+.articles_list{
+    width: 90%;
+}
+.articles_bg{
+    width: 1440px;
+height: 130%;
+padding-top: 3%;
+padding-bottom: 3%;
+background: url("../../../assests//image/Rectangle 12.png");
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.article{
+    background: #FAFEFE;
+box-shadow: 0px 1px 20px rgba(2, 151, 157, 0.1);
+margin-bottom: 3%;
+}
+.articlesSection_title{
+    width: 301px;
+height: 47px;
+font-family: 'Gilroy-SemiBold';
+font-size: 35px;
+line-height: 45px;
+text-transform: uppercase;
+margin-bottom: 50px;
+color: #000B0C;
+}
+.articlePic{
+    width: 270px;
+    height: 170px;
+}
+.articleContext{
+    width: 570px;
+    height: 230px;
+}
+.articleContext h5{
+    font-family: 'Gilroy-SemiBold';
+    margin-top: 25px;
+font-size: 20px;
+line-height: 40px;
+
+color: #000B0C;
+}
+.articleContext p{
+    font-family: 'Gilroy-Regular';
+font-size: 18px;
+line-height: 40px;
+/* or 167% */
+
+
+/* text */
+
+color: #000B0C;
+}
+.section6_title{
+    width: 673.93px;
+height: 46.99px;
+font-family: 'Gilroy-SemiBold';
+font-size: 30px;
+line-height: 45px;
+text-transform: uppercase;
+margin-top: 100px;
+color: #000B0C;
+}
+.section6_list{
+    height: 559px;
+}
+.section6_accordion{
+    margin-bottom: 40px !important;
+    width: 1029.9px;
+padding: 18px;
+    background: rgba(255, 255, 255, 0.03);
+backdrop-filter: blur(4px);
+
+border-radius: 15px !important;
+border: 1px solid;
+border-color:  #02979D;
+
+
+}
+.Accordion_title{
+    font-family:  "Gilroy-Regular";
+    font-size: 18px;
+line-height: 40px;
+
+text-transform: capitalize;
+
+color: #000B0C;
+}
+
+@media only screen and (min-width:1500px) {
+    .articles_bg{
+        width: 85%;
+    }
+    
+}
+@media only screen and (max-width:1200px) {
+    .articlesSection_title{
+        font-size: 20px;
+        text-align: center;
+    }
+    .articles_list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .article{
+        width: 300px !important;
+    }
+    .articleContext{
+        width: 250px;
+        height: fit-content;
+    }
+    .articleContext h5{
+        font-size: 10px;
+        text-align: center;
+    }
+    .articleContext p{
+        font-size: 10px;
+        text-align: center;
+    }
+    .articleImg{
+        transform: rotate(180deg);
+        -ms-transform:      rotate(270deg);
+        -moz-transform:     rotate(270deg);
+        -webkit-transform:  rotate(270deg);
+        -o-transform:       rotate(270deg);
+        width: 1px;
+        height: 150px;
+    }
+    .section6_title{
+        font-size: 15px;
+        width: 300px;
+        margin-left: 5%;
+        height: fit-content;
+    }
+    .section6_list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+    .section6_accordion{
+        width: 85%;
+        height: fit-content;
+    }
+    .Accordionlist_imges{
+        display: none;
+    }
+}

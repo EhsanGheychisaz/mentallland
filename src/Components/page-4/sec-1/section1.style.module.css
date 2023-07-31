@@ -1,0 +1,58 @@
+.sectio1_bg{
+    background: url("../../../assests//image/Union (1).png");
+height: 1012.92px;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;  
+align-items: center;  
+margin-bottom: 70px;
+}
+.section1_context h3{
+    width: 1238px;
+height: 73px;
+font-family: 'Alice';
+text-align: center;
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 73px;
+text-align: center;
+text-transform: uppercase;
+color: #000B0C;
+}
+.section1_context p{
+    width: 1238px;
+height: 80px;
+font-family: 'Gilroy-Medium';
+font-size: 24px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000B0C;
+
+}
+@media only screen and (max-width: 900px) {
+    .sectio1_bg{
+      }
+      .section1_context{
+        width: 100%;
+        margin-bottom: 150px;
+      }
+      .section1_context h3{
+        font-size: 28px;
+        width: 100%;
+        text-align: center;
+      }
+      .section1_context p {
+        font-size: 12px;
+        margin-left: 30px;
+         padding: 10px 5px;
+          margin: 0 auto;
+          height: fit-content;
+          width: 100%;
+          margin-top: 20px;
+      
+      }
+}

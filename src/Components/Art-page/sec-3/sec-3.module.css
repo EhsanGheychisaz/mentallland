@@ -1,0 +1,62 @@
+.container{
+    margin: 0 auto;
+}
+.box {
+    font-family: 'alice-regular';
+    font-style: normal;
+    font-size: 24px;
+    color: #040C1A;
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.footerb{
+   background-color: rgba(2, 151, 157, 0.1);
+
+}
+.footerr{
+    background-color: rgba(215, 78, 127, 0.1);
+
+}
+.card {
+    text-align: center;
+}
+
+.box h2 {
+    font-family: "alice-regular";
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box p {
+    font-family: "alice-regular";
+    font-size: 26px;
+    padding: 25px 100px 25px 100px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .lastch {
+        display: none;
+    }
+
+    .box {
+        margin-top: 100px;
+        padding-left: 0px;
+        padding-right: 0px;
+        max-width: 1900px;
+    }
+
+    .box p {
+        font-size: 18px;
+        padding: 20px 0px 20px 0px;
+
+    }
+    .box h2 {
+        font-size: 24px;
+
+    }
+}

@@ -1,0 +1,16 @@
+.bodycolor{
+    background-color: rgba(2, 151, 157, 0.08);
+    width: 100%;
+    padding-bottom:50px;
+}
+.sectionsContainer {
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+    }
+
+  

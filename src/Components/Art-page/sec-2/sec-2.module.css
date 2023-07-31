@@ -1,0 +1,24 @@
+
+.box {
+    font-style: normal;
+    padding-left: 150px;
+    max-width: 1800px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+    .box {
+        margin-top: 150px;
+        padding-left: 0px;
+        padding-right: 0px;
+        max-width: 90%;
+    }
+    .box p{
+        margin-left: 40px;
+
+    }
+}
