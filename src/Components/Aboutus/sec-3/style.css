@@ -13,7 +13,7 @@
     /* Center slide text vertically */
     display: flex;
     justify-content: center;
-    align-items:end;
+    align-items: flex-end;
     width:135px!important;
     transform:translateX(-100px)
 

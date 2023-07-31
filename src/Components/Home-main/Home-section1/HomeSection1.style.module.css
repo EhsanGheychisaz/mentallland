@@ -207,7 +207,7 @@ color: #000B0C;
 .item1_bg,
 .item3_bg{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .showNumber{
     position: relative;
@@ -265,7 +265,7 @@ height: 72px;
     .item1_bg,
     .item3_bg{
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
     }
     .Item1,
     .Item2,
